@@ -1,0 +1,51 @@
+
+NET "num[6]" LOC = "T17";
+NET "num[5]" LOC = "T18";
+NET "num[4]" LOC = "U17";
+NET "num[3]" LOC = "U18";
+
+NET "num[2]" LOC = "M14";
+NET "num[1]" LOC = "N14";
+NET "num[0]" LOC = "L14";
+
+NET "en[0]" LOC = "P17";
+NET "en[1]" LOC = "P18";
+NET "en[2]" LOC = "N15";
+NET "en[3]" LOC = "N16";
+
+NET "start" LOC = "T5";
+NET "enable" LOC = "V8";
+NET "button" LOC = "C9";
+NET "reset_cpu" LOC = "C4";
+//NET "reset_data_memory" LOC ="B8";
+NET "clk" LOC = "V10";
+
+NET "select[3]" LOC ="M8";
+NET "select[2]" LOC ="V9";
+NET "select[1]" LOC ="T9";
+NET "select[0]" LOC ="T10";
+
+NET "_select[1]" LOC="U8";
+NET "_select[0]" LOC="N8";
+
+NET "pc_out[7]" LOC ="T11";
+NET "pc_out[6]" LOC ="R11";
+NET "pc_out[5]" LOC ="N11";
+NET "pc_out[4]" LOC ="M11";
+NET "pc_out[3]" LOC ="V15";
+NET "pc_out[2]" LOC ="U15";
+NET "pc_out[1]" LOC ="V16";
+NET "pc_out[0]" LOC ="U16";
+
+NET "hsync"  LOC ="N6";
+NET "vsync"  LOC ="P7";
+NET "vga_r[0]"  LOC ="U7";
+NET "vga_r[1]"  LOC ="V7";
+NET "vga_r[2]"  LOC ="N7";
+NET "vga_g[0]"  LOC ="P8";
+NET "vga_g[1]"  LOC ="T6";
+NET "vga_g[2]"  LOC ="V6";
+NET "vga_b[0]"  LOC ="R7";
+NET "vga_b[1]"  LOC ="T7";
+
+

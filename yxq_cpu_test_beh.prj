@@ -1,0 +1,4 @@
+verilog work "ALU.v"
+verilog work "yxq_cpu.v"
+verilog work "yxq_cpu_test.v"
+verilog work "D:/xuexiruanjian/sss/14.7/ISE_DS/ISE//verilog/src/glbl.v"

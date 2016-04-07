@@ -1,0 +1,40 @@
+Running: D:\xuexiruanjian\sss\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/14-15autumn/digital system design/yxq_cpu/test2_isim_beh.exe -prj D:/14-15autumn/digital system design/yxq_cpu/test2_beh.prj work.test2 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/14-15autumn/digital system design/yxq_cpu/MEN.v" into library work
+Analyzing Verilog file "D:/14-15autumn/digital system design/yxq_cpu/IF.v" into library work
+Analyzing Verilog file "D:/14-15autumn/digital system design/yxq_cpu/EX.v" into library work
+Analyzing Verilog file "D:/14-15autumn/digital system design/yxq_cpu/smooth.v" into library work
+Analyzing Verilog file "D:/14-15autumn/digital system design/yxq_cpu/segment.v" into library work
+Analyzing Verilog file "D:/14-15autumn/digital system design/yxq_cpu/pipeline_cpu.v" into library work
+Analyzing Verilog file "D:/14-15autumn/digital system design/yxq_cpu/instruct_memory.v" into library work
+Analyzing Verilog file "D:/14-15autumn/digital system design/yxq_cpu/data_memory.v" into library work
+Analyzing Verilog file "D:/14-15autumn/digital system design/yxq_cpu/clk.v" into library work
+Analyzing Verilog file "D:/14-15autumn/digital system design/yxq_cpu/cpu_top.v" into library work
+Analyzing Verilog file "D:/14-15autumn/digital system design/yxq_cpu/test2.v" into library work
+Analyzing Verilog file "D:/xuexiruanjian/sss/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/14-15autumn/digital system design/yxq_cpu/test2.v" Line 46: Port _select is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/14-15autumn/digital system design/yxq_cpu/cpu_top.v" Line 69: Size mismatch in connection of port <num>. Formal port size is 21-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/14-15autumn/digital system design/yxq_cpu/cpu_top.v" Line 63: Size mismatch in connection of port <num>. Formal port size is 21-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module clk
+Compiling module smooth
+Compiling module instruct_memory
+Compiling module data_memory
+Compiling module IF
+Compiling module EX
+Compiling module MEN
+Compiling module pipeline_cpu
+Compiling module segment
+Compiling module cpu_top
+Compiling module test2
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable D:/14-15autumn/digital system design/yxq_cpu/test2_isim_beh.exe
+Fuse Memory Usage: 28964 KB
+Fuse CPU Usage: 640 ms

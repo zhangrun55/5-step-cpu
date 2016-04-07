@@ -1,0 +1,19 @@
+ISim log file
+Running: D:\14-15autumn\digital system design\yxq_cpu\test2_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/14-15autumn/digital system design/yxq_cpu/test2_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/my_clk/, width 21 of formal port num is not equal to width 32 of actual constant.
+WARNING:  For instance uut/my_clk_2/, width 21 of formal port num is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 10000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+00:xxxxxxxxxxxxxxxx:
+01:xxxxxxxxxxxxxxxx:
+01:0100100110101011:
+02:xxxxxxxxxxxxxxxx:
+02:1000001000111100:
+03:xxxxxxxxxxxxxxxx:
+03:0000000000000000:

@@ -1,0 +1,6 @@
+verilog isim_temp "MEN.v"
+verilog isim_temp "IF.v"
+verilog isim_temp "EX.v"
+verilog isim_temp "pipeline_cpu.v"
+verilog isim_temp "yxq_cpu_test.v"
+verilog isim_temp "D:/xuexiruanjian/sss/14.7/ISE_DS/ISE//verilog/src/glbl.v"
